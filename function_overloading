@@ -1,0 +1,23 @@
+ //Example 1: Overloading Using Different Types of Parameter
+
+#include<iostream>
+using namespace std;
+int add(int a)
+{
+  int b=23;
+  return(a+b);
+}
+float add(float c)
+{
+    float d=2.2f;
+    return(c+d);
+}
+
+int main()
+{
+    float c=3.3f;
+    cout<<" sum of two float number "<<add(c)<<endl;
+    int a=3;
+    cout<<" sum of two interger number "<<add(a);
+    return 0;
+}
